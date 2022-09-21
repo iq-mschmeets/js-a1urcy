@@ -1,1 +1,14 @@
-<div id="app"></div>
+<h1>Binary Attribute</h1>
+<div id="app">
+  <form
+    method="POST"
+    action="../request/elementForm"
+    enctype="multipart/form-data"
+  >
+    <label for="txt">Text Input</label>
+    <input type="text" name="txt" value="Initial" id="txt" />
+
+    <iq-binary-attribute label="Binary Stuff Goes Here"></iq-binary-attribute>
+    <div><button id="act-button">Examine</button></div>
+  </form>
+</div>

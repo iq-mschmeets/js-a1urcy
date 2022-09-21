@@ -1,3 +1,23 @@
-h1, h2 {
-  font-family: Lato;
+body {
+  padding: 2em;
+}
+h1,
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+iq-binary-attribute {
+  display: block;
+  border: 1px solid blue;
+  padding: 2em 0em;
+  margin: 0.5em 0;
+}
+.drag-over {
+  border: 2px solid green;
+}
+label {
+  font-weight: 600;
+  display: block;
+  padding-bottom: 0.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

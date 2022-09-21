@@ -1,4 +1,8 @@
-function createDomNode(tag, attrs, option) {
+function isElement(element) {
+  return element instanceof Element || element instanceof HTMLDocument;
+}
+
+function createElement(tag, attrs, option) {
   var node = document.createElement(tag);
   if (attrs) {
     Object.keys(attrs).forEach(function (key) {
@@ -20,4 +24,4 @@ function createDomNode(tag, attrs, option) {
   }
   return node;
 }
-export { createDomNode };
+export { createElement };
